@@ -1,0 +1,135 @@
+body,
+html {
+  width: 100%;
+  font-size: 14px;
+}
+label{
+  display: inline-block;
+}
+header{
+  padding: 8px 0;
+}
+.form-title {
+  width: 100%;
+  background-color: rgb(24, 128, 197);
+  color: #fff;
+  font-size: 1rem;
+  /* font-weight: 500; */
+  text-align: center;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.form-title p:nth-of-type(1) {
+  padding-bottom: 8px;
+}
+
+.form-title p:last-of-type {
+  /* padding-bottom: 5px; */
+  font-size: .9rem;
+}
+
+.content {
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.form-list li {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+.form-list li .title{
+  margin: 10px 0;
+}
+.form-list li .title .necessary,
+.redCol {
+  color: red;
+}
+
+.form-list li .title .info {
+  font-weight: 600;
+}
+
+.form-list li .common {
+  margin-bottom: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  /* padding: 6px; */
+}
+
+.form-list li .form-inp {
+  border: none;
+}
+.form-list li .form-sel{
+  padding: 5px 0;
+  border: 1px solid #ccc;
+}
+.qxz {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 45%);
+}
+.qxz::after{
+  content: '';
+  position: absolute;
+  left: 55px;
+  top: 2px;
+  transform: rotateZ(45deg);
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border: 1px solid transparent;
+  border-bottom-color: #000;
+  border-right-color: #000;
+  /* background-color: #000; */
+}
+table{
+  border: 2px solid #000;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+table thead{
+  width: 100%;
+}
+table thead tr{
+  font-weight: 700;
+}
+table tr {
+  width: 100%;
+  height: 1.8em;
+  line-height: 1.8em;
+}
+table tr th,
+table tr td{
+  width: 25%;
+  border-right: 2px solid #000;
+}
+table tr td{
+  border-top: 2px solid #000;
+}
+table tr td input{
+  width: 90%;
+  border: none;
+}
+
+.form-list li  textarea{
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.submit-btn{
+  width: 100%;
+  background-color:  rgb(24, 128, 197);
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  color: #fff;
+  padding: 5px 0;
+}
